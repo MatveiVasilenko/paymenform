@@ -10,45 +10,19 @@
 </head>
 <body>
 	<form action="" method="POST" class="form">
-		<div class="form__head">
-			<div class="form__title">Harold Finch
-				<span class="form__subtitle">your total</span>
-			</div>
-			<div class="form__price">88</div>
+		<div class="form__title">Create your free account</div>
+		<div class="form__subtitle">Come and join our cool and amazing community, fill in your details
+		to get started. Already have an account? <a class="form__subtitle-link" href="#">Log in</a>.
 		</div>
-		<div class="form__body">
-			<div class="label">
-				<span>Credit card number</span>
-				<input name="card" class="form__item form__item-card" type="text" placeholder="4321">
-			</div>
-			<div class="label none">
-				<span>Expiration date </span>
-				<select name="month" class="form__item form__item-month">
-					<option value="Month">Month</option>
-					<option value="January">January</option>
-					<option value="February">February</option>
-					<option value="March">March</option>
-					<option value="April">April</option>
-					<option value="May">May</option>
-					<option value="June">June</option>
-					<option value="July">July</option>
-					<option value="August">August</option>
-					<option value="September">September</option>
-					<option value="October">October</option>
-					<option value="November">November</option>
-					<option value="December">December</option>
-				</select>
-				<select name="year" class="form__item form__item-year">
-					<option value="Year">Year</option>
-					<option value="2018">2018</option>
-					<option value="2019">2019</option>
-					<option value="2020">2020</option>
-				</select>
-				<div class="cvv">CVV</div>
-				<label for=""><input name="cvv" class="form__item form__item-cvv" type="text" placeholder="">3 or 4 digits - view example</label>
-			</div>
-			<a href="#" class="form__btn">Pay</a>
-			<a href="#" class="form__reset">Cancel order</a>
+		<div class="form__blocks">
+			<input class="form__block form__block--little" type="text" placeholder="First name">
+			<input class="form__block form__block--little" type="text" placeholder="Last name">
+			<input class="form__block form__block--big" type="text" placeholder="Email adress">
+			<input class="form__block form__block--big" type="text" placeholder="Password">
+		</div>
+		<div class="form__btn">Sign up for free</div>
+		<div class="form__subtitle">By clicking on “Sign up for free”, you agree to the <a href="#" class="form__subtitle-link">Terms of Service</a> and 
+		the <a href="#" class="form__subtitle-link">Privacy Policy</a>
 		</div>
 	</form>
 </body>
