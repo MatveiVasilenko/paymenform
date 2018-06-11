@@ -1,0 +1,132 @@
+
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	height: 100%;
+}
+body{
+	font: 400 1.3rem/1 "Montserrat", sans-serif;
+	min-height: 100%;
+	background-color: #1a1d21;
+				background-image:
+				url(../img/bg.png),radial-gradient(circle farthest-side at top left, #555a5c, transparent);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+}
+.form {
+	width: 340px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+.form__head {
+	background: #efe4aa;
+	padding: 25px;
+}
+.form__head:before,
+.form__head:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.form__body {
+	padding: 25px;
+}
+.form__title,
+.form__price {
+}
+.form__title {
+	float: left;
+	min-width: 30%;
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: #6e7f7b;
+	padding: 5px 0;
+}
+.form__price {
+	float: right;
+	min-width: 30%;
+	font-size: 3.6rem;
+	color: #637570;
+	text-align: right;
+}
+.form__price:before {
+	content: '$';
+}
+.form__subtitle {
+	display: inline-block;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #a6a28d;
+}
+.label {
+	color: #9eabad;
+}
+input,
+select {
+	border: 2px solid #b4c1c4;
+}
+.form__item {
+	margin: 7px 0;
+	padding: 13px 5px;
+}
+.form__item-card {
+	width: 100%;	
+}
+.form__item-month {
+	display: inline-block;
+	width: 65%;	
+}
+.form__item-month,
+.form__item-year,
+span,
+label,
+.cvv {
+	font-size: 1.3rem;	
+}
+.cvv {
+	margin-top: 10px;
+}
+
+.form__item-year {
+	display: inline-block;
+	width: 30%;
+	margin-left: 5%;
+
+}
+.label {
+	margin: 20px 0;
+}
+.none {
+	font-size: 0;
+}
+.form__item-cvv {
+	display: inline-block;
+	width: 30%;
+	margin-right: 10px;
+}
+.form__btn {
+	display: inline-block;
+	width: 100%;
+	padding: 14px;
+	background: #25b167;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+.form__reset {
+	display: inline-block;
+	color: #9eabad;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
