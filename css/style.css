@@ -69,3 +69,7 @@ body{
 	border-radius: 3px;
 	border-bottom: 3px solid #bd1962;
 }
+.form__btn:hover,
+.form__btn:focus {
+	background: #bd1962;
+}
